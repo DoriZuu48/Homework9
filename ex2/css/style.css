@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+   }
+   body{
+     background-color:#E0E0E0;
+   }
+   article{
+     display:flex;
+     flex-direction:row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     flex-basis: 10%;
+     padding: 12em;
+   }
+   .card_image{
+     display:flex;
+     background-image: url(https://cdn.gearpatrol.com/wp-content/uploads/2018/11/Citroen-2CV-gear-patrol-slide-2-1940x1300.jpg);
+     background-size: cover;
+     opacity:0.7;
+     width: 510px;
+		 height: 400px;
+		 margin: 0.6vw;
+   }
+   .card_content-image--text{
+     display:flex;
+     flex-direction:column;
+     justify-content: flex-end;
+     color:white;
+     margin:1vw;
+   }
+   .card_date-image--text{
+		font-family: 'Long Cang', cursive;
+     font-size:10px;
+   }
+   .card_content-image--text{
+    font-size: 2vw;
+   }
+   
+   .card_image-woman{
+     display:flex;
+     background-image: url(https://alfa.mk/wp-content/uploads/2018/10/october.jpg);
+     background-size:cover;
+     height: 150px;
+   }
+   .card_text{
+		font-family: 'Zhi Mang Xing', cursive;
+     display:flex;
+     flex-direction: column;
+     padding: 15px;
+   }
+   .card_date-text{
+		font-size:10px;
+		font-family: 'Long Cang', cursive;
+    margin: 1vw 0 1vw 0;
+    color: #37474F;
+	 }
+	 .card_content-text--margin{
+		 margin: 3vw 1vw 0.5vw 0.5vw;
+	 }
+   .card{
+     display: flex;
+     flex-direction: column;
+     background-color:white;
+     margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+     height:400px;
+     width: 250px;
+   }
+   .card_image-autumn{
+     display:flex;
+     background-image: url(https://93546-d-c.ooyala.com/content/images/1283/1569237309_53906e1f-f8f0-4f53-b50b-bba58965087d_636x357.jpg);
+     background-size:cover;
+     height: 150px;
+   }
+   
+   .card_image-pumpkin{
+       display:flex;
+     background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/children-covering-their-faces-with-carved-pumpkins-royalty-free-image-1568209875.jpg);
+     background-size:cover;
+     height: 150px;
+   }
+   .card_image-sun{
+       display:flex;
+     background-image: url(https://imgix.bustle.com/elite-daily/2017/08/09144209/woman-autumn-sun-light-fall-yellow.jpg?w=1020&h=574&fit=crop&crop=faces&auto=format&q=70);
+     background-size:cover;
+     height: 150px;
+   }
+   
+.author {
+	border-radius: 50%;
+	width: 50px;
+  height: 50px;
+}
+
+.author_contain{
+  border-radius: 50%;
+	width: 50px;
+  height: 50px;
+  position: relative;
+  top:28px;
+}	
